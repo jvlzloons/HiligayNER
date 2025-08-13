@@ -29,6 +29,7 @@ HILIGAYNER is the first open-source **Named Entity Recognition (NER)** corpus an
 ## 📂 Contents  
 
 - **📁 Dataset** – Cleaned & annotated corpus in CoNLL-U format
+  
 | **Source**                           | **Original** | **Cleaned** |
 | ------------------------------------ | ------------ | ----------- |
 | Ang Pulong Sang Dios (New Testament) | 11,000       | 5,500       |
@@ -38,9 +39,9 @@ HILIGAYNER is the first open-source **Named Entity Recognition (NER)** corpus an
 | Ilonggo Balita sa Uma                | 155          | 153         |
 
 
-- **⚙️ Models** – Fine-tuned mBERT & XLM-RoBERTa checkpoints
+- **⚙️ Models** Fine-tuned mBERT & XLM-RoBERTa checkpoints
 
-- **Table 3:** – Performance of mBERT Transformer-based model fine-tuning for Hiligaynon NER
+- **Table 3:** Performance of mBERT Transformer-based model fine-tuning for Hiligaynon NER
   
 | Tagset | Precision | Recall | F1-Score | Support |
 | ------ | --------- | ------ | -------- | ------- |
