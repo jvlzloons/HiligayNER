@@ -1,0 +1,854 @@
+{
+  "correct_count": 9,
+  "error_count": 11,
+  "total_samples": 20,
+  "accuracy": 0.45,
+  "errors": [
+    {
+      "text": "--indi lang..natuyo na ako-\nBalibad...siguro indi mo lang 'ko ya type-ginsukmatan siya ni Jonerol.",
+      "true_entities": [
+        [
+          90,
+          97,
+          "B-PER"
+        ]
+      ],
+      "predicted_entities": [
+        {
+          "text": "Jonerol",
+          "label": "PER",
+          "start": 90,
+          "end": 97
+        }
+      ],
+      "false_negatives": [
+        [
+          90,
+          97,
+          "B-PER"
+        ]
+      ],
+      "false_positives": [
+        [
+          90,
+          97,
+          "PER"
+        ]
+      ]
+    },
+    {
+      "text": "Dead On Arrival sa Pototan District Hospital sa Pototan Iloilo ang driver sang motorsiklo",
+      "true_entities": [
+        [
+          19,
+          26,
+          "B-PER"
+        ],
+        [
+          27,
+          35,
+          "I-PER"
+        ],
+        [
+          36,
+          44,
+          "I-PER"
+        ],
+        [
+          48,
+          55,
+          "B-PER"
+        ],
+        [
+          48,
+          55,
+          "B-PER"
+        ],
+        [
+          56,
+          62,
+          "B-PER"
+        ],
+        [
+          56,
+          62,
+          "B-PER"
+        ]
+      ],
+      "predicted_entities": [
+        {
+          "text": "Pototan District Hospital",
+          "label": "LOC",
+          "start": 19,
+          "end": 44
+        },
+        {
+          "text": "Pototan Iloilo",
+          "label": "LOC",
+          "start": 48,
+          "end": 62
+        }
+      ],
+      "false_negatives": [
+        [
+          19,
+          26,
+          "B-PER"
+        ],
+        [
+          36,
+          44,
+          "I-PER"
+        ],
+        [
+          27,
+          35,
+          "I-PER"
+        ],
+        [
+          48,
+          55,
+          "B-PER"
+        ],
+        [
+          56,
+          62,
+          "B-PER"
+        ]
+      ],
+      "false_positives": [
+        [
+          19,
+          44,
+          "LOC"
+        ],
+        [
+          48,
+          62,
+          "LOC"
+        ]
+      ]
+    },
+    {
+      "text": "Ginpabaskug sang senador ang iya panindugan nga ang Pilipinas nangin lapit na sa pagka- narco-state sa idalom sang administrasyon ni Duterte.",
+      "true_entities": [
+        [
+          52,
+          61,
+          "B-LOC"
+        ],
+        [
+          133,
+          141,
+          "B-PER"
+        ]
+      ],
+      "predicted_entities": [
+        {
+          "text": "Pilipinas",
+          "label": "LOC",
+          "start": 52,
+          "end": 61
+        },
+        {
+          "text": "Duterte.",
+          "label": "PER",
+          "start": 133,
+          "end": 141
+        }
+      ],
+      "false_negatives": [
+        [
+          52,
+          61,
+          "B-LOC"
+        ],
+        [
+          133,
+          141,
+          "B-PER"
+        ]
+      ],
+      "false_positives": [
+        [
+          133,
+          141,
+          "PER"
+        ],
+        [
+          52,
+          61,
+          "LOC"
+        ]
+      ]
+    },
+    {
+      "text": "Siling nila Wala pa kami sing may nakita nga pareho sini Gintawag ni Jesus si Levi Pagkatapos sadto nagbalik liwat si Jesus sa higad sang Linaw sang Galilea Madamo nga mga tawo ang nagpalapit sa iya gani gintudluan niya sila",
+      "true_entities": [
+        [
+          69,
+          75,
+          "B-PER"
+        ],
+        [
+          78,
+          83,
+          "B-PER"
+        ],
+        [
+          118,
+          124,
+          "B-PER"
+        ],
+        [
+          149,
+          157,
+          "B-LOC"
+        ]
+      ],
+      "predicted_entities": [
+        {
+          "text": "Jesus",
+          "label": "PER",
+          "start": 69,
+          "end": 74
+        },
+        {
+          "text": "Levi",
+          "label": "PER",
+          "start": 78,
+          "end": 82
+        },
+        {
+          "text": "Jesus",
+          "label": "PER",
+          "start": 118,
+          "end": 123
+        },
+        {
+          "text": "Galilea",
+          "label": "LOC",
+          "start": 149,
+          "end": 156
+        }
+      ],
+      "false_negatives": [
+        [
+          118,
+          124,
+          "B-PER"
+        ],
+        [
+          78,
+          83,
+          "B-PER"
+        ],
+        [
+          149,
+          157,
+          "B-LOC"
+        ],
+        [
+          69,
+          75,
+          "B-PER"
+        ]
+      ],
+      "false_positives": [
+        [
+          149,
+          156,
+          "LOC"
+        ],
+        [
+          78,
+          82,
+          "PER"
+        ],
+        [
+          69,
+          74,
+          "PER"
+        ],
+        [
+          118,
+          123,
+          "PER"
+        ]
+      ]
+    },
+    {
+      "text": "Ginpasalamatan naman sang mga benepisyaryo nga pamilya ang tag 2000 pesos nga ila nabaton gikan kay Cong Yulo bangud dako na ini nga bulig para sa ila Panimalay sa sining tion sang Kresis ",
+      "true_entities": [
+        [
+          100,
+          104,
+          "B-PER"
+        ],
+        [
+          105,
+          109,
+          "I-PER"
+        ]
+      ],
+      "predicted_entities": [
+        {
+          "text": "Cong Yulo",
+          "label": "PER",
+          "start": 100,
+          "end": 109
+        }
+      ],
+      "false_negatives": [
+        [
+          105,
+          109,
+          "I-PER"
+        ],
+        [
+          100,
+          104,
+          "B-PER"
+        ]
+      ],
+      "false_positives": [
+        [
+          100,
+          109,
+          "PER"
+        ]
+      ]
+    },
+    {
+      "text": "Ang kasugtanan sa tunga sang duha ang may tinutuyo nga mahatagan sang mga health benefits ang mga job hire kag maka-conduct sang regular nga Information and Education Campaign IEC agud ma-familiarize sang mga enrollees ang polisa sang PhilHealth, benepisyo, availment procedures, kinamatarong kag obligasyon sa idalom sang program",
+      "true_entities": [
+        [
+          141,
+          152,
+          "B-ORG"
+        ],
+        [
+          157,
+          166,
+          "I-ORG"
+        ],
+        [
+          167,
+          175,
+          "I-ORG"
+        ],
+        [
+          176,
+          179,
+          "B-ORG"
+        ],
+        [
+          235,
+          246,
+          "B-ORG"
+        ]
+      ],
+      "predicted_entities": [
+        {
+          "text": "Information and Education",
+          "label": "ORG",
+          "start": 141,
+          "end": 166
+        },
+        {
+          "text": "Campaign IEC",
+          "label": "ORG",
+          "start": 167,
+          "end": 179
+        },
+        {
+          "text": "PhilHealth,",
+          "label": "ORG",
+          "start": 235,
+          "end": 246
+        }
+      ],
+      "false_negatives": [
+        [
+          167,
+          175,
+          "I-ORG"
+        ],
+        [
+          235,
+          246,
+          "B-ORG"
+        ],
+        [
+          141,
+          152,
+          "B-ORG"
+        ],
+        [
+          157,
+          166,
+          "I-ORG"
+        ],
+        [
+          176,
+          179,
+          "B-ORG"
+        ]
+      ],
+      "false_positives": [
+        [
+          141,
+          166,
+          "ORG"
+        ],
+        [
+          167,
+          179,
+          "ORG"
+        ],
+        [
+          235,
+          246,
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "text": "SA bulig sang Red Cross Medical Team kag BFP USAR mapadala ang Taxi.",
+      "true_entities": [
+        [
+          14,
+          18,
+          "B-ORG"
+        ],
+        [
+          18,
+          24,
+          "I-ORG"
+        ],
+        [
+          24,
+          32,
+          "I-ORG"
+        ],
+        [
+          32,
+          37,
+          "I-ORG"
+        ],
+        [
+          41,
+          45,
+          "B-ORG"
+        ],
+        [
+          45,
+          50,
+          "I-ORG"
+        ]
+      ],
+      "predicted_entities": [
+        {
+          "text": "Red Cross Medical Team",
+          "label": "ORG",
+          "start": 14,
+          "end": 36
+        },
+        {
+          "text": "BFP USAR",
+          "label": "ORG",
+          "start": 41,
+          "end": 49
+        }
+      ],
+      "false_negatives": [
+        [
+          24,
+          32,
+          "I-ORG"
+        ],
+        [
+          41,
+          45,
+          "B-ORG"
+        ],
+        [
+          18,
+          24,
+          "I-ORG"
+        ],
+        [
+          32,
+          37,
+          "I-ORG"
+        ],
+        [
+          14,
+          18,
+          "B-ORG"
+        ],
+        [
+          45,
+          50,
+          "I-ORG"
+        ]
+      ],
+      "false_positives": [
+        [
+          41,
+          49,
+          "ORG"
+        ],
+        [
+          14,
+          36,
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "text": "LUCAS Chapter nga natabo yadto sa ila tungod nga mas makasasala sila sang sa iban nga mga taga-Galilea Pero indi",
+      "true_entities": [
+        [
+          0,
+          6,
+          "B-PER"
+        ],
+        [
+          95,
+          103,
+          "B-LOC"
+        ]
+      ],
+      "predicted_entities": [
+        {
+          "text": "LUCAS",
+          "label": "PER",
+          "start": 0,
+          "end": 5
+        },
+        {
+          "text": "Galilea",
+          "label": "LOC",
+          "start": 95,
+          "end": 102
+        }
+      ],
+      "false_negatives": [
+        [
+          0,
+          6,
+          "B-PER"
+        ],
+        [
+          95,
+          103,
+          "B-LOC"
+        ]
+      ],
+      "false_positives": [
+        [
+          0,
+          5,
+          "PER"
+        ],
+        [
+          95,
+          102,
+          "LOC"
+        ]
+      ]
+    },
+    {
+      "text": "Sa bahin naman sang OKC, kanday Shai Gilgeous-Alexander kag Ajay Mitchell lang ang may mataas nga puntos nga may tig 14 ang pagahiwaton gihapon sa Target Center, Minneapolis, Minnesota USA, sa maabot nga Mayo 27, Martes las 830 sang aga.",
+      "true_entities": [
+        [
+          20,
+          23,
+          "B-ORG"
+        ],
+        [
+          32,
+          37,
+          "B-PER"
+        ],
+        [
+          37,
+          45,
+          "I-PER"
+        ],
+        [
+          46,
+          56,
+          "I-PER"
+        ],
+        [
+          60,
+          65,
+          "B-PER"
+        ],
+        [
+          65,
+          74,
+          "I-PER"
+        ],
+        [
+          147,
+          154,
+          "B-LOC"
+        ],
+        [
+          154,
+          160,
+          "I-LOC"
+        ],
+        [
+          162,
+          173,
+          "I-LOC"
+        ],
+        [
+          175,
+          185,
+          "I-LOC"
+        ],
+        [
+          185,
+          188,
+          "I-LOC"
+        ]
+      ],
+      "predicted_entities": [
+        {
+          "text": "OKC",
+          "label": "ORG",
+          "start": 20,
+          "end": 23
+        },
+        {
+          "text": "Shai Gilgeous",
+          "label": "PER",
+          "start": 32,
+          "end": 45
+        },
+        {
+          "text": "Ajay Mitchell",
+          "label": "PER",
+          "start": 60,
+          "end": 73
+        },
+        {
+          "text": "Target Center,",
+          "label": "LOC",
+          "start": 147,
+          "end": 161
+        },
+        {
+          "text": "Minneapolis, Minnesota",
+          "label": "LOC",
+          "start": 162,
+          "end": 184
+        },
+        {
+          "text": "USA,",
+          "label": "LOC",
+          "start": 185,
+          "end": 189
+        }
+      ],
+      "false_negatives": [
+        [
+          147,
+          154,
+          "B-LOC"
+        ],
+        [
+          37,
+          45,
+          "I-PER"
+        ],
+        [
+          32,
+          37,
+          "B-PER"
+        ],
+        [
+          162,
+          173,
+          "I-LOC"
+        ],
+        [
+          175,
+          185,
+          "I-LOC"
+        ],
+        [
+          46,
+          56,
+          "I-PER"
+        ],
+        [
+          20,
+          23,
+          "B-ORG"
+        ],
+        [
+          65,
+          74,
+          "I-PER"
+        ],
+        [
+          185,
+          188,
+          "I-LOC"
+        ],
+        [
+          154,
+          160,
+          "I-LOC"
+        ],
+        [
+          60,
+          65,
+          "B-PER"
+        ]
+      ],
+      "false_positives": [
+        [
+          162,
+          184,
+          "LOC"
+        ],
+        [
+          20,
+          23,
+          "ORG"
+        ],
+        [
+          32,
+          45,
+          "PER"
+        ],
+        [
+          147,
+          161,
+          "LOC"
+        ],
+        [
+          185,
+          189,
+          "LOC"
+        ],
+        [
+          60,
+          73,
+          "PER"
+        ]
+      ]
+    },
+    {
+      "text": "Samtang team Leni Saravia kag Silay City Volunteers nag pahamtang sang lugaw station malapit sa Teresita Jalandoni Provincial Hospital ",
+      "true_entities": [
+        [
+          13,
+          17,
+          "B-PER"
+        ],
+        [
+          18,
+          25,
+          "I-PER"
+        ],
+        [
+          30,
+          35,
+          "B-LOC"
+        ],
+        [
+          36,
+          40,
+          "I-LOC"
+        ],
+        [
+          96,
+          104,
+          "B-PER"
+        ],
+        [
+          105,
+          114,
+          "I-PER"
+        ]
+      ],
+      "predicted_entities": [
+        {
+          "text": "Len",
+          "label": "PER",
+          "start": 13,
+          "end": 16
+        },
+        {
+          "text": "Silay City",
+          "label": "LOC",
+          "start": 30,
+          "end": 40
+        },
+        {
+          "text": "Teresita Jalandoni Provincial Hospital",
+          "label": "LOC",
+          "start": 96,
+          "end": 134
+        }
+      ],
+      "false_negatives": [
+        [
+          13,
+          17,
+          "B-PER"
+        ],
+        [
+          18,
+          25,
+          "I-PER"
+        ],
+        [
+          96,
+          104,
+          "B-PER"
+        ],
+        [
+          36,
+          40,
+          "I-LOC"
+        ],
+        [
+          30,
+          35,
+          "B-LOC"
+        ],
+        [
+          105,
+          114,
+          "I-PER"
+        ]
+      ],
+      "false_positives": [
+        [
+          96,
+          134,
+          "LOC"
+        ],
+        [
+          30,
+          40,
+          "LOC"
+        ],
+        [
+          13,
+          16,
+          "PER"
+        ]
+      ]
+    }
+  ]
+}

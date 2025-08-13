@@ -1,0 +1,684 @@
+{
+  "correct_count": 11,
+  "error_count": 9,
+  "total_samples": 20,
+  "accuracy": 0.55,
+  "errors": [
+    {
+      "text": "Nagpanagtag naman sang Food packs si Mayor Mangilimutan sa pamilya sang mga biktima subong man ginhatagan sila sang mga puti nga bulak gikan sa mga opisyales sang banwa upod sa Philippine Army kag PNP ",
+      "true_entities": [
+        [
+          37,
+          42,
+          "B-PER"
+        ],
+        [
+          43,
+          55,
+          "I-PER"
+        ],
+        [
+          177,
+          187,
+          "B-ORG"
+        ],
+        [
+          188,
+          192,
+          "I-ORG"
+        ],
+        [
+          197,
+          200,
+          "B-ORG"
+        ]
+      ],
+      "predicted_entities": [
+        {
+          "text": "Mayor Mangilimutan",
+          "label": "PER",
+          "start": 37,
+          "end": 55
+        },
+        {
+          "text": "Philippine Army",
+          "label": "ORG",
+          "start": 177,
+          "end": 192
+        },
+        {
+          "text": "PNP",
+          "label": "ORG",
+          "start": 197,
+          "end": 200
+        }
+      ],
+      "false_negatives": [
+        [
+          43,
+          55,
+          "I-PER"
+        ],
+        [
+          188,
+          192,
+          "I-ORG"
+        ],
+        [
+          37,
+          42,
+          "B-PER"
+        ],
+        [
+          197,
+          200,
+          "B-ORG"
+        ],
+        [
+          177,
+          187,
+          "B-ORG"
+        ]
+      ],
+      "false_positives": [
+        [
+          177,
+          192,
+          "ORG"
+        ],
+        [
+          37,
+          55,
+          "PER"
+        ],
+        [
+          197,
+          200,
+          "ORG"
+        ]
+      ]
+    },
+    {
+      "text": "Loboc Lapaz Iloilo City Isa na ka bulan nga wala pa malubong bangud wala sang kwarta",
+      "true_entities": [
+        [
+          0,
+          5,
+          "B-LOC"
+        ],
+        [
+          6,
+          11,
+          "B-LOC"
+        ],
+        [
+          12,
+          18,
+          "B-LOC"
+        ],
+        [
+          19,
+          23,
+          "I-LOC"
+        ]
+      ],
+      "predicted_entities": [
+        {
+          "text": "Lo",
+          "label": "LOC",
+          "start": 0,
+          "end": 2
+        },
+        {
+          "text": "Iloilo City",
+          "label": "LOC",
+          "start": 12,
+          "end": 23
+        }
+      ],
+      "false_negatives": [
+        [
+          0,
+          5,
+          "B-LOC"
+        ],
+        [
+          6,
+          11,
+          "B-LOC"
+        ],
+        [
+          19,
+          23,
+          "I-LOC"
+        ],
+        [
+          12,
+          18,
+          "B-LOC"
+        ]
+      ],
+      "false_positives": [
+        [
+          12,
+          23,
+          "LOC"
+        ],
+        [
+          0,
+          2,
+          "LOC"
+        ]
+      ]
+    },
+    {
+      "text": "Lumibot si Tiago sa sulod sang lati.",
+      "true_entities": [
+        [
+          11,
+          16,
+          "B-PER"
+        ]
+      ],
+      "predicted_entities": [
+        {
+          "text": "Tiago",
+          "label": "PER",
+          "start": 11,
+          "end": 16
+        }
+      ],
+      "false_negatives": [
+        [
+          11,
+          16,
+          "B-PER"
+        ]
+      ],
+      "false_positives": [
+        [
+          11,
+          16,
+          "PER"
+        ]
+      ]
+    },
+    {
+      "text": "Ginkilala ang mga sakay nga sanday PCpl Patrick Panganiban 32 anyos pumuluyo sang Brgy Alijis Ciudad sang Bacolod PCpl Jane Claire Batadhay 29 Anyos sang Victorias City Patrolman Calveen Corral PCpl Hazel Motin April Rose Megel 24 anyos duha ka mga menor de edad kag isa ka babaye nga ginkilala kay Daisy Delos Santos nga napatay sa amo nga insidente ",
+      "true_entities": [
+        [
+          35,
+          39,
+          "B-PER"
+        ],
+        [
+          40,
+          47,
+          "I-PER"
+        ],
+        [
+          40,
+          47,
+          "I-PER"
+        ],
+        [
+          48,
+          58,
+          "I-PER"
+        ],
+        [
+          82,
+          86,
+          "B-LOC"
+        ],
+        [
+          87,
+          93,
+          "I-LOC"
+        ],
+        [
+          114,
+          118,
+          "B-PER"
+        ],
+        [
+          119,
+          123,
+          "I-PER"
+        ],
+        [
+          124,
+          130,
+          "I-PER"
+        ],
+        [
+          131,
+          139,
+          "I-PER"
+        ],
+        [
+          154,
+          163,
+          "B-LOC"
+        ],
+        [
+          164,
+          168,
+          "I-LOC"
+        ],
+        [
+          194,
+          198,
+          "B-PER"
+        ],
+        [
+          199,
+          204,
+          "I-PER"
+        ],
+        [
+          199,
+          204,
+          "I-PER"
+        ],
+        [
+          205,
+          210,
+          "I-PER"
+        ],
+        [
+          211,
+          216,
+          "I-PER"
+        ],
+        [
+          217,
+          221,
+          "I-PER"
+        ],
+        [
+          222,
+          227,
+          "I-PER"
+        ],
+        [
+          299,
+          304,
+          "B-PER"
+        ],
+        [
+          305,
+          310,
+          "I-PER"
+        ],
+        [
+          311,
+          317,
+          "I-PER"
+        ]
+      ],
+      "predicted_entities": [
+        {
+          "text": "PCpl Patrick Panganiban",
+          "label": "PER",
+          "start": 35,
+          "end": 58
+        },
+        {
+          "text": "Brgy Alijis",
+          "label": "LOC",
+          "start": 82,
+          "end": 93
+        },
+        {
+          "text": "Bacolod",
+          "label": "LOC",
+          "start": 106,
+          "end": 113
+        },
+        {
+          "text": "PCpl Jane Claire Batadhay",
+          "label": "PER",
+          "start": 114,
+          "end": 139
+        },
+        {
+          "text": "Victorias City",
+          "label": "LOC",
+          "start": 154,
+          "end": 168
+        },
+        {
+          "text": "PCpl Hazel Motin",
+          "label": "PER",
+          "start": 194,
+          "end": 210
+        },
+        {
+          "text": "April Rose Megel",
+          "label": "PER",
+          "start": 211,
+          "end": 227
+        },
+        {
+          "text": "Daisy Delos Santos",
+          "label": "PER",
+          "start": 299,
+          "end": 317
+        }
+      ],
+      "false_negatives": [
+        [
+          305,
+          310,
+          "I-PER"
+        ],
+        [
+          119,
+          123,
+          "I-PER"
+        ],
+        [
+          40,
+          47,
+          "I-PER"
+        ],
+        [
+          164,
+          168,
+          "I-LOC"
+        ],
+        [
+          124,
+          130,
+          "I-PER"
+        ],
+        [
+          87,
+          93,
+          "I-LOC"
+        ],
+        [
+          114,
+          118,
+          "B-PER"
+        ],
+        [
+          211,
+          216,
+          "I-PER"
+        ],
+        [
+          48,
+          58,
+          "I-PER"
+        ],
+        [
+          311,
+          317,
+          "I-PER"
+        ],
+        [
+          205,
+          210,
+          "I-PER"
+        ],
+        [
+          217,
+          221,
+          "I-PER"
+        ],
+        [
+          194,
+          198,
+          "B-PER"
+        ],
+        [
+          35,
+          39,
+          "B-PER"
+        ],
+        [
+          154,
+          163,
+          "B-LOC"
+        ],
+        [
+          82,
+          86,
+          "B-LOC"
+        ],
+        [
+          131,
+          139,
+          "I-PER"
+        ],
+        [
+          199,
+          204,
+          "I-PER"
+        ],
+        [
+          299,
+          304,
+          "B-PER"
+        ],
+        [
+          222,
+          227,
+          "I-PER"
+        ]
+      ],
+      "false_positives": [
+        [
+          211,
+          227,
+          "PER"
+        ],
+        [
+          299,
+          317,
+          "PER"
+        ],
+        [
+          194,
+          210,
+          "PER"
+        ],
+        [
+          106,
+          113,
+          "LOC"
+        ],
+        [
+          154,
+          168,
+          "LOC"
+        ],
+        [
+          35,
+          58,
+          "PER"
+        ],
+        [
+          114,
+          139,
+          "PER"
+        ],
+        [
+          82,
+          93,
+          "LOC"
+        ]
+      ]
+    },
+    {
+      "text": "Asawa sia sang isa ka maestro kantor nga si Maestro Gabriel kag may isa sila ka anak nga lalaki kag isa man ka babae nga amo lamang ang ila kalipay sa pangabuhi.",
+      "true_entities": [
+        [
+          44,
+          51,
+          "B-PER"
+        ],
+        [
+          52,
+          59,
+          "I-PER"
+        ]
+      ],
+      "predicted_entities": [
+        {
+          "text": "Maestro Gabriel",
+          "label": "PER",
+          "start": 44,
+          "end": 59
+        }
+      ],
+      "false_negatives": [
+        [
+          44,
+          51,
+          "B-PER"
+        ],
+        [
+          52,
+          59,
+          "I-PER"
+        ]
+      ],
+      "false_positives": [
+        [
+          44,
+          59,
+          "PER"
+        ]
+      ]
+    },
+    {
+      "text": "Ginhalukan ya ako sing makunyagon sa magtimbang nakon nga nawong, kag nagtulok sia sa kay Nanay kag sumiling:\n\n\"Kumare, nga pagkatahum kay Nita, kag daw buhi nga anghel sa akon panulok.",
+      "true_entities": [],
+      "predicted_entities": [
+        {
+          "text": "Nita",
+          "label": "PER",
+          "start": 139,
+          "end": 143
+        }
+      ],
+      "false_negatives": [],
+      "false_positives": [
+        [
+          139,
+          143,
+          "PER"
+        ]
+      ]
+    },
+    {
+      "text": "Natabo ang insidenti alas 1 30 minutes sang kaagahon sa kurbada antis sang taytay nga nahamtang sa Hacienda amorabieta ",
+      "true_entities": [
+        [
+          99,
+          107,
+          "B-LOC"
+        ],
+        [
+          108,
+          118,
+          "I-LOC"
+        ]
+      ],
+      "predicted_entities": [
+        {
+          "text": "Hacienda amorabieta",
+          "label": "LOC",
+          "start": 99,
+          "end": 118
+        }
+      ],
+      "false_negatives": [
+        [
+          99,
+          107,
+          "B-LOC"
+        ],
+        [
+          108,
+          118,
+          "I-LOC"
+        ]
+      ],
+      "false_positives": [
+        [
+          99,
+          118,
+          "LOC"
+        ]
+      ]
+    },
+    {
+      "text": "Suno kay mayor Benitez nga ila ginhambalan ang tuhoy sa pila ka mga proyekto pang agricultura kaangay sang irigasyon farm to market roads abono kag pila ka mga makinaryas para sa panguma  ",
+      "true_entities": [
+        [
+          15,
+          22,
+          "B-PER"
+        ]
+      ],
+      "predicted_entities": [
+        {
+          "text": "mayor Benitez",
+          "label": "PER",
+          "start": 9,
+          "end": 22
+        }
+      ],
+      "false_negatives": [
+        [
+          15,
+          22,
+          "B-PER"
+        ]
+      ],
+      "false_positives": [
+        [
+          9,
+          22,
+          "PER"
+        ]
+      ]
+    },
+    {
+      "text": "pamangkot ni Lorna sa kaugalingon.",
+      "true_entities": [
+        [
+          13,
+          18,
+          "B-PER"
+        ]
+      ],
+      "predicted_entities": [
+        {
+          "text": "Lorna",
+          "label": "PER",
+          "start": 13,
+          "end": 18
+        }
+      ],
+      "false_negatives": [
+        [
+          13,
+          18,
+          "B-PER"
+        ]
+      ],
+      "false_positives": [
+        [
+          13,
+          18,
+          "PER"
+        ]
+      ]
+    }
+  ]
+}
