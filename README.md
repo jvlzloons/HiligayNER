@@ -52,7 +52,7 @@ HILIGAYNER is the first open-source **Named Entity Recognition (NER)** corpus an
 | B-ORG  | 0.77      | 0.87   | 0.82     | 505     |
 | I-ORG  | 0.77      | 0.82   | 0.79     | 944     |
 
-- **Table 4:** – Performance of XLM-RoBERTa Transformer-based model fine-tuning for Hiligaynon NER
+- **Table 4:** Performance of XLM-RoBERTa Transformer-based model fine-tuning for Hiligaynon NER
   
 | Tagset | Precision | Recall | F1-Score | Support |
 | ------ | --------- | ------ | -------- | ------- |
