@@ -2,7 +2,7 @@
 
 > This repository contains the code, dataset, and models for our study entitled HILIGAYNER: Building Baseline Named-Entity Recognition for the Hiligaynon Language. First publicly available Hiligaynon NER dataset & transformer-based models — built with **mBERT** and **XLM-RoBERTa**.
 
-Authored by: James Ald Teves, Ray Daniel Cal, Josh Villaluz, Mico Magtira, Jean Malolos, Ramon Rodriguez, Mideth B. Abisado, and Joseph Imperial.
+Authored by: James Ald Teves, Ray Daniel Cal, Josh Villaluz, Mico Magtira, Jean Malolos, Ramon Rodriguez, Mideth Abisado, and Joseph Marvin Imperial.
 
 ---
 
