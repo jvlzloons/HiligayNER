@@ -5,6 +5,13 @@
 Authored by: James Ald Teves, Ray Daniel Cal, Josh Villaluz, Mico Magtira, Jean Malolos, Ramon Rodriguez, Mideth Abisado, and Joseph Marvin Imperial.
 
 ---
+## Access the fine-tuned HiligayNER models on HuggingFace:
+
+- [XLM-RoBERTa Large](https://huggingface.co/josephimperial/hiligayner-xlmr-large)
+- [XLM-RoBERTa Base](https://huggingface.co/josephimperial/hiligayner-xlmr-base)
+- [mBERT](https://huggingface.co/josephimperial/hiligayner-mbert)
+
+---
 
 ## 📦 Dependencies
 
